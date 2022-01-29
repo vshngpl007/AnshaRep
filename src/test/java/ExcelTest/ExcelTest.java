@@ -34,7 +34,7 @@ public class ExcelTest {
 
             while (cellIT.hasNext()) {
 String name = cellIT.next().toString();
-             if(name.equalsIgnoreCase("Vrishank"))
+             if(name.equalsIgnoreCase("Vishnu"))
              {
                  System.out.println(name);
                  while (cellIT.hasNext())
@@ -46,6 +46,12 @@ String name = cellIT.next().toString();
             }
 
         }
+        Anushabranch1();
+
+    }
+    public static void Anushabranch1()
+    {
+        System.out.println("Anusha");
     }
 }
 
